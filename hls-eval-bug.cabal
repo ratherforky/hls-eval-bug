@@ -1,0 +1,15 @@
+cabal-version:      2.4
+name:               hls-eval-bug
+version:            0.1.0.0
+
+synopsis: Minimal project to reproduce eval bug in hls
+
+library
+  exposed-modules:
+      A
+    , B
+    , C
+  hs-source-dirs: src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
